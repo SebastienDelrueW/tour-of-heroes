@@ -5,12 +5,14 @@ import {FormsModule} from '@angular/forms';
 import { AppComponent } from './app.component';
 import { HereosComponent } from './hereos/hereos.component';
 import { AdditionComponent } from './addition/addition.component';
+import { HeroDetailComponent } from './hero-detail/hero-detail.component';
 
 @NgModule({
   declarations: [
     AppComponent,
     HereosComponent,
-    AdditionComponent
+    AdditionComponent,
+    HeroDetailComponent
   ],
   imports: [
     BrowserModule,
